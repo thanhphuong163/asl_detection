@@ -1,0 +1,11 @@
+defaults:
+  - hydra: customized_hydra
+  - _self_
+
+project_name: ASL_Detection
+raw_data_dir: ./data/raw
+data_dir: ./data/preprocessed
+output_dir: ./experiment_logs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+chkpt_path: null
+experiment_note: null
