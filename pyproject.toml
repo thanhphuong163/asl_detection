@@ -3,8 +3,14 @@ name = "asl-detection"
 version = "0.1.0"
 description = "This"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "hydra-core>=1.3.2",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "mediapipe>=0.10.20",
+    "mediapy>=1.2.2",
     "omegaconf>=2.3.0",
+    "opencv-python>=4.10.0.84",
+    "pandas>=2.2.3",
 ]
